@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="navContainer">
+        <div class="logoContainer">
+          <h1 class="log">house</h1>
+        </div>
+        <div class="menuContainer">
+          <ul class="menuList">
+            <li class="menulistItem">Home</li>
+            <li class="menulistItem">Movies</li>
+            <li class="menulistItem">Series</li>
+            <li class="menulistItem">Animation</li>
+            <li class="menulistItem">Popular</li>
+            <li class="menulistItem">Trends</li>
+          </ul>
+        </div>
+        <div class="profileContainer">
+          <img class="profilePicture" src="x profile pix.jpg" alt="" />
+          <div class="profiletextContainer">
+            <span class="profileText">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+            <div class="toggleball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sideBar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa fa-home"></i>
+      <i class="fa-solid fa-users"></i>
+      <i class="fa-solid fa-bookmark"></i>
+      <i class="fa-solid fa-tv"></i>
+      <i class="fa-solid fa-hourglass-start"></i>
+      <i class="fa-solid fa-shopping-cart"></i>
+    </div>
+
+    <div class="container">
+      <div class="contentContainer">
+        <div class="featuredContent">
+          <img
+            class="featuredTitle filter sepia hue-rotate-180 brightness-100 w-[200px]"
+            src="images/title-removebg-preview.png"
+            alt=""
+          />
+          <p class="featuredTest">
+            A magical fairy tale about a princess, seven dwarfs, and a jealous
+            queen. Snow White’s kindness and bravery help her overcome dark
+            magic and find true love.
+          </p>
+          <button class="featuredButton">WATCH</button>
+        </div>
+
+        <div class="movielistContainer">
+          <h1 class="movielistTilte">NEW RELEASE</h1>
+          <div class="movielistWrapper">
+            <div class="moviesList">
+              <div
+                class="movielistItem relative mr-[30px] group cursor-pointer"
+              >
+                <img
+                  class="movielistitemImg"
+                  src="images/Book of Life.png"
+                  alt=""
+                />
+                <span class="movielistitemTitle">Book of Life</span>
+                <p class="movielistitemDecs">
+                  The Book of Life follows Manolo on a magical adventure through
+                  different worlds as he learns about love, courage, and staying
+                  true to himself.
+                </p>
+                <button class="movielistitemButton">WATCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
