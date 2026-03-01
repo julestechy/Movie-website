@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #f2e9e9;
 }
 
 .navbar {
@@ -153,6 +154,7 @@ body {
 
 .movie-list-item {
   margin-right: 30px;
+  position: relative;
 }
 
 .movie-list-item:hover .movie-list-item-img {
@@ -161,8 +163,29 @@ body {
 }
 
 .movie-list-item-img {
-  width: 200px;
-  height: 170px;
+  width: 270px;
+  height: 200px;
   object-fit: cover;
   transition: all 1s ease-in-out;
+}
+
+.movie-list-item-title {
+  background-color: #800080;
+  padding: 0 10px;
+  font-size: 29px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+  /* opacity: 0; */
+}
+
+.movie-list-item-decs {
+  background-color: #800080;
+  padding: 10px;
+  font-size: 12px;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  /* opacity: 0; */
 }
