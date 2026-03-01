@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
 * {
   margin: 0;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" "Red heart display";
   color: #f2e9e9;
 }
 
@@ -22,7 +20,7 @@ body {
   padding: 0 50px;
   height: 100%;
   color: #f2e9e9;
-  font-family: "san", sans-serif;
+  font-family: "red heart display";
 }
 
 .logo {
@@ -109,7 +107,7 @@ body {
 }
 
 .container {
-  background-color: #1a1600;
+  background-color: #151515;
   min-height: calc(100vh - 50px);
 }
 
@@ -146,6 +144,10 @@ body {
   padding: 20px;
 }
 
+.movie-list-wrapper {
+  position: relative;
+}
+
 .movie-list {
   display: flex;
   align-items: center;
@@ -160,6 +162,13 @@ body {
 .movie-list-item:hover .movie-list-item-img {
   transform: scale(1.2);
   margin: 0 30px;
+  opacity: 0.5;
+}
+
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-decs,
+.movie-list-item:hover .movie-list-item-button {
+  opacity: 1;
 }
 
 .movie-list-item-img {
@@ -170,22 +179,50 @@ body {
 }
 
 .movie-list-item-title {
-  background-color: #800080;
+  background-color: #470047;
   padding: 0 10px;
   font-size: 29px;
   font-weight: bold;
   position: absolute;
   top: 10%;
   left: 50px;
-  /* opacity: 0; */
+  opacity: 0;
+  transition: 1s all ease-in-out;
 }
 
 .movie-list-item-decs {
-  background-color: #800080;
+  background-color: #470047;
   padding: 10px;
   font-size: 12px;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50px;
-  /* opacity: 0; */
+  width: 230px;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+
+.movie-list-item-button {
+  padding: 10px;
+  background-color: #d1b200;
+  color: #f2e9e9;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+
+.arrow {
+  font-size: 120px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  color: #470047;
+  opacity: 0.5;
+  cursor: pointer;
 }
