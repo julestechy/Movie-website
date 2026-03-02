@@ -125,6 +125,10 @@ body {
   filter: sepia(1) hue-rotate(180deg) brightness(100%);
 }
 
+.featured-title.wed {
+  padding: 20px 0;
+}
+
 .featured-desc {
   width: 500px;
   color: #f2e9e9;
