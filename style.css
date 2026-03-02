@@ -212,27 +212,6 @@ body {
   transition: 1s all ease-in-out;
 }
 
-.movie-list-item-title.dragon {
-  font-size: 23px;
-}
-.movie-list-item-decs.dragon {
-  top: 40%;
-}
-
-.movie-list-item-title.kpop {
-  font-size: 25px;
-}
-.movie-list-item-decs.kpop {
-  top: 40%;
-}
-
-.movie-list-item-title.princess {
-  font-size: 23px;
-}
-.movie-list-item-decs.princess {
-  top: 40%;
-}
-
 .movie-list-item-button {
   padding: 10px;
   background-color: #d1b200;
