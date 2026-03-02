@@ -122,12 +122,13 @@ body {
 
 .featured-title {
   width: 200px;
+  filter: sepia(1) hue-rotate(180deg) brightness(100%);
 }
 
 .featured-desc {
   width: 500px;
   color: #f2e9e9;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .featured-button {
@@ -135,6 +136,7 @@ body {
   color: #f2e9e9;
   padding: 10px 20px;
   border-radius: 10px;
+  margin: 10px 0;
   border: none;
   outline: none;
   font-weight: bold;
@@ -155,7 +157,7 @@ body {
 }
 
 .movie-list-item {
-  margin-right: 30px;
+  margin-right: 20px;
   position: relative;
 }
 
@@ -172,9 +174,9 @@ body {
 }
 
 .movie-list-item-img {
-  width: 270px;
+  width: 220px;
   height: 200px;
-  object-fit: cover;
+  object-fit: 80%;
   transition: all 1s ease-in-out;
 }
 
@@ -197,7 +199,7 @@ body {
   position: absolute;
   top: 30%;
   left: 50px;
-  width: 230px;
+  width: 200px;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
