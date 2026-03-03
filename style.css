@@ -238,6 +238,10 @@ body {
   cursor: pointer;
 }
 
+.arrow:hover {
+  opacity: 1;
+}
+
 .container.active {
   background-color: white;
 }
