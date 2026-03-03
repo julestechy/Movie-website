@@ -234,12 +234,12 @@ body {
   top: 90px;
   right: 0;
   color: #470047;
-  opacity: 0.5;
+  opacity: 0.8;
   cursor: pointer;
 }
 
 .arrow:hover {
-  opacity: 1;
+  opacity: 2;
 }
 
 .container.active {
